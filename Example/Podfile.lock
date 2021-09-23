@@ -1,0 +1,25 @@
+PODS:
+  - LookinServer (1.0.3)
+  - TKWidgetModule (0.1.0):
+    - TKWidgetModule/Core (= 0.1.0)
+  - TKWidgetModule/Core (0.1.0)
+
+DEPENDENCIES:
+  - LookinServer
+  - TKWidgetModule (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - LookinServer
+
+EXTERNAL SOURCES:
+  TKWidgetModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LookinServer: 5e1d44b7e4a2a98793f1eaf319c583e1e946b830
+  TKWidgetModule: aa4dbb99ea20e9cc8a6c45404c323f8f427c2b7f
+
+PODFILE CHECKSUM: 645292f84cee1225263bc7669d96e9af55abf1f9
+
+COCOAPODS: 1.10.1
